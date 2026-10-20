@@ -1,0 +1,343 @@
+{
+ "date": "2026-10-18",
+ "source": "Crossref REST API (api.crossref.org/works?query.bibliographic=...)",
+ "purpose": "systematic search record for the novelty claim (reviewer round 2, point 8)",
+ "queries": {
+  "Q1": {
+   "query": "CERRA reanalysis wind validation station",
+   "total_results": 786488,
+   "top10": [
+    {
+     "title": "Assessment of new DWD and Copernicus regional reanalysis products R6G2 and CERRA with focus on near surface wi",
+     "doi": "10.5194/ems2022-435",
+     "year": 2022
+    },
+    {
+     "title": "Validation of CPM&amp;#8217;s wind and precipitation field against observations and the highresolution reanaly",
+     "doi": "10.5194/egusphere-egu24-17774",
+     "year": 2025
+    },
+    {
+     "title": "Evidence-gated Multi-Source Downscaling of Antarctic Station Wind Resources using Reanalysis, Terrain and UAV ",
+     "doi": "10.2139/ssrn.7525400",
+     "year": 2026
+    },
+    {
+     "title": "The evaluation of offshore wind climate in Greece using the CERRA reanalysis dataset",
+     "doi": "10.1201/9781003558859-6",
+     "year": 2024
+    },
+    {
+     "title": "The 3\u2009km Norwegian reanalysis\u00a0(NORA3) \u2013  a validation of offshore wind resources  in the North Sea and the Nor",
+     "doi": "10.5194/wes-6-1501-2021",
+     "year": 2021
+    },
+    {
+     "title": "CERRA-Land : A new land surface reanalysis at 5.5 km resolution over Europe",
+     "doi": "10.5194/ems2021-492",
+     "year": 2021
+    },
+    {
+     "title": "Evaluation of CERRA for wind energy applications",
+     "doi": "10.5194/ems2023-311",
+     "year": 2023
+    },
+    {
+     "title": "Evaluation of river discharge simulated with CTRIP forced by the CERRA-Land regional reanalysis over Europe.",
+     "doi": "10.5194/egusphere-egu24-9280",
+     "year": 2025
+    },
+    {
+     "title": "Wind speed super-resolution and validation: from ERA5 to CERRA via diffusion models",
+     "doi": "10.1007/s00521-024-10139-9",
+     "year": 2024
+    },
+    {
+     "title": "Cybersecurity\u2019s Second Wind",
+     "doi": "10.1007/978-1-4842-2229-4_10",
+     "year": 2016
+    }
+   ]
+  },
+  "Q2": {
+   "query": "ERA5 low wind spell duration validation station observations",
+   "total_results": 2719716,
+   "top10": [
+    {
+     "title": "Tall wind profile validation of ERA5, NORA3, and NEWA datasets using lidar observations",
+     "doi": "10.5194/wes-10-733-2025",
+     "year": 2025
+    },
+    {
+     "title": "ETCCDI INDICES IN THE ODESSA REGION BASED ON ERA5-LAND REANALYSIS AND STATION OBSERVATIONS: TRENDS AND VALIDAT",
+     "doi": "10.32782/uhj.36.2026.03",
+     "year": 2026
+    },
+    {
+     "title": "GraphCast faithfully reproduces ERA5 near-surface wind speed at Antarctic stations - but ERA5 itself deviates ",
+     "doi": "10.5194/ems2026-434",
+     "year": 2026
+    },
+    {
+     "title": "Low-level jets over the North Sea based on ERA5 and observations: together they do better",
+     "doi": "10.5194/wes-4-193-2019",
+     "year": 2019
+    },
+    {
+     "title": "Low-level jets over the North Sea based on ERA5 and observations:\ntogether they do better",
+     "doi": "10.5194/wes-2018-79",
+     "year": 2019
+    },
+    {
+     "title": "Intercomparison of wind observations from ESA\u2019s satellite mission Aeolus, ERA5 reanalysis and radiosonde over ",
+     "doi": "10.5194/amt-2022-26",
+     "year": 2022
+    },
+    {
+     "title": "Validation of low-cost receiver derived tropospheric products against ERA5 reanalysis",
+     "doi": "10.5194/egusphere-egu22-7899",
+     "year": 2022
+    },
+    {
+     "title": "Offshore Validation of ERA5 Reanalysis with Hub Height Wind Observations of Brazil",
+     "doi": "10.1109/isgtlatinamerica52371.2021.9542993",
+     "year": 2021
+    },
+    {
+     "title": "Coastal horizontal wind speed gradients in the North Sea based on observations and ERA5 reanalysis data",
+     "doi": "10.1127/metz/2022/1166",
+     "year": 2023
+    },
+    {
+     "title": "Boundary-layer height and surface stability at SMEAR II, Hyyti\u00e4l\u00e4, Finland in ERA5 and observations",
+     "doi": "10.5194/amt-2021-295",
+     "year": 2021
+    }
+   ]
+  },
+  "Q3": {
+   "query": "wind drought reanalysis station validation persistence",
+   "total_results": 937604,
+   "top10": [
+    {
+     "title": "Comparative Study of Drought Indices Calculated with Meteorological Station and Reanalysis Data in Tropical Zo",
+     "doi": "10.2139/ssrn.4777303",
+     "year": 2024
+    },
+    {
+     "title": "Validation of CPM&amp;#8217;s wind and precipitation field against observations and the highresolution reanaly",
+     "doi": "10.5194/egusphere-egu24-17774",
+     "year": 2025
+    },
+    {
+     "title": "Evidence-gated Multi-Source Downscaling of Antarctic Station Wind Resources using Reanalysis, Terrain and UAV ",
+     "doi": "10.2139/ssrn.7525400",
+     "year": 2026
+    },
+    {
+     "title": "The 3\u2009km Norwegian reanalysis\u00a0(NORA3) \u2013  a validation of offshore wind resources  in the North Sea and the Nor",
+     "doi": "10.5194/wes-6-1501-2021",
+     "year": 2021
+    },
+    {
+     "title": "Wind trends analysis in southern South America from weather station and reanalysis data",
+     "doi": "10.1002/joc.7355",
+     "year": 2021
+    },
+    {
+     "title": "ETCCDI INDICES IN THE ODESSA REGION BASED ON ERA5-LAND REANALYSIS AND STATION OBSERVATIONS: TRENDS AND VALIDAT",
+     "doi": "10.32782/uhj.36.2026.03",
+     "year": 2026
+    },
+    {
+     "title": "Supplemental Information 3: North American Regional Reanalysis (NARR) wind profiles.",
+     "doi": "10.7717/peerj.15622/supp-3",
+     "year": null
+    },
+    {
+     "title": "Reanalysis and Ground Station data: Advanced data preprocessing in deep learning for wind power prediction",
+     "doi": "10.1016/j.apenergy.2024.124129",
+     "year": 2024
+    },
+    {
+     "title": "Review for \"Limitations of reanalysis data for wind power applications\"",
+     "doi": "10.1002/we.2759/v2/review2",
+     "year": 2022
+    },
+    {
+     "title": "Review for \"Limitations of reanalysis data for wind power applications\"",
+     "doi": "10.1002/we.2759/v1/review2",
+     "year": 2022
+    }
+   ]
+  },
+  "Q4": {
+   "query": "Dunkelflaute reanalysis",
+   "total_results": 10452,
+   "top10": [
+    {
+     "title": "Review for \"Mesoscale modeling of a \u201cDunkelflaute\u201d event\"",
+     "doi": "10.1002/we.2554/v1/review2",
+     "year": 2020
+    },
+    {
+     "title": "Review for \"Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage\"",
+     "doi": "10.1088/2753-3751/ad6dfc/v1/review1",
+     "year": 2024
+    },
+    {
+     "title": "Review for \"Mesoscale modeling of a \u201cDunkelflaute\u201d event\"",
+     "doi": "10.1002/we.2554/v1/review1",
+     "year": 2020
+    },
+    {
+     "title": "Decision letter for \"Mesoscale modeling of a \u201cDunkelflaute\u201d event\"",
+     "doi": "10.1002/we.2554/v1/decision1",
+     "year": 2020
+    },
+    {
+     "title": "Decision letter for \"Mesoscale modeling of a \u201cDunkelflaute\u201d event\"",
+     "doi": "10.1002/we.2554/v2/decision1",
+     "year": 2020
+    },
+    {
+     "title": "Decision letter for \"Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage\"",
+     "doi": "10.1088/2753-3751/ad6dfc/v1/decision1",
+     "year": 2024
+    },
+    {
+     "title": "Review for \"Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage\"",
+     "doi": "10.1088/2753-3751/ad6dfc/v2/review1",
+     "year": 2024
+    },
+    {
+     "title": "Decision letter for \"Measuring the Dunkelflaute: How (not) to analyze variable renewable energy shortage\"",
+     "doi": "10.1088/2753-3751/ad6dfc/v2/decision1",
+     "year": 2024
+    },
+    {
+     "title": "Navigating Dunkelflaute",
+     "doi": "10.3768/rtipress.2022.bk.0027.2301.06",
+     "year": 2022
+    },
+    {
+     "title": "Author response for \"Mesoscale modeling of a \u201cDunkelflaute\u201d event\"",
+     "doi": "10.1002/we.2554/v2/response1",
+     "year": 2020
+    }
+   ]
+  },
+  "Q5": {
+   "query": "reanalysis wind energy interannual variability P90 validation station",
+   "total_results": 3603462,
+   "top10": [
+    {
+     "title": "Interannual variability of wind climates and wind turbine annual energy production",
+     "doi": "10.5194/wes-3-651-2018",
+     "year": 2018
+    },
+    {
+     "title": "Interannual variability of the summer wind energy over China: A comparison of multiple datasets",
+     "doi": "10.1002/we.2512",
+     "year": 2020
+    },
+    {
+     "title": "Variability in wind energy on interannual and decadal scales and its influence on hydrogen energy storage",
+     "doi": "10.1002/est2.671",
+     "year": 2024
+    },
+    {
+     "title": "Capped wind power density as a turbine-agnostic metric for interannual wind variability",
+     "doi": "10.1016/j.seta.2026.105219",
+     "year": 2026
+    },
+    {
+     "title": "Analysis of Interannual Variability of the Yellow Sea Bottom Cold Water Using Reanalysis Data",
+     "doi": "10.5194/egusphere-egu25-5001",
+     "year": 2025
+    },
+    {
+     "title": "Evaluation of mixed layer depth in Korean waters obtained by reanalysis data sets: spatial distribution and in",
+     "doi": "10.5194/egusphere-egu25-15254",
+     "year": 2025
+    },
+    {
+     "title": "Interannual Variability of Red Sea Overflow Water Pathways in the Western Arabian Sea in an Eddy Rich Ocean Re",
+     "doi": "10.5194/egusphere-egu22-4438",
+     "year": 2022
+    },
+    {
+     "title": "Using wind velocity estimated from a reanalysis to minimize the variability of aggregated wind farm production",
+     "doi": "10.1002/we.2153",
+     "year": 2017
+    },
+    {
+     "title": "comment on Climatology and Interannual Variability of Dynamic Variables in Multiple Reanalyses Evaluated by th",
+     "doi": "10.5194/acp-2017-289-rc2",
+     "year": 2017
+    },
+    {
+     "title": "Interannual variability in the NCEP Reanalysis 1948\u20131999",
+     "doi": "10.1029/2001gl013905",
+     "year": 2002
+    }
+   ]
+  },
+  "Q6": {
+   "query": "regional reanalysis wind climate Morocco Canary Islands validation",
+   "total_results": 1973710,
+   "top10": [
+    {
+     "title": "Identifying Past Droughts in El Hierro (Canary Islands) With ERA5 Climate Reanalysis and SPI",
+     "doi": "10.5194/ems2024-554",
+     "year": 2024
+    },
+    {
+     "title": "The Digital Climate Atlas of the Canary Islands: A Tool to Improve Knowledge of Climate and Climate Change in ",
+     "doi": "10.2139/ssrn.4470014",
+     "year": 2023
+    },
+    {
+     "title": "Spain \u2013 Offshore Canary Islands \u2013 Tarfaya Basin: Implications of Sandia-1X Well Results in the Hydrocarbon Exp",
+     "doi": "10.1306/30593delolmo2018",
+     "year": 2018
+    },
+    {
+     "title": "A Canary in the Coal Mine: Disappearing Islands and Climate Change",
+     "doi": "10.1163/9789004322714_cclc_2020-0061-0348",
+     "year": null
+    },
+    {
+     "title": "Supplemental Information 3: North American Regional Reanalysis (NARR) wind profiles.",
+     "doi": "10.7717/peerj.15622/supp-3",
+     "year": null
+    },
+    {
+     "title": "Beringer, Mrs Oscar, (1856\u201317 Feb. 1936), dramatist, lecturer, author, and traveller, Russia, South Africa, Ca",
+     "doi": "10.1093/ww/9780199540884.013.u206015",
+     "year": 2007
+    },
+    {
+     "title": "The evaluation of wind extremes from regional climate models and reanalysis over Belgium",
+     "doi": "10.5194/egusphere-egu26-5212",
+     "year": 2026
+    },
+    {
+     "title": "The Canary Islands Aboriginal Maternal Genetic Pool: Haplotype Reanalysis, New Coalescent Ages, and the Roman ",
+     "doi": "10.20944/preprints202307.0464.v1",
+     "year": 2023
+    },
+    {
+     "title": "Canary Islands",
+     "doi": "10.1093/gmo/9781561592630.article.o009265",
+     "year": 2002
+    },
+    {
+     "title": "The geography and climate of Madeira and the Canary Islands",
+     "doi": "10.2307/j.ctt1ws7wdj.4",
+     "year": 2018
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1367 @@
+{
+ "date": "2026-10-18",
+ "sources": "Crossref REST API (v4 record, retained), Semantic Scholar Graph API (citations/references chase + keyword queries), OpenAlex anchor metadata",
+ "note_scopus_wos": "Scopus and Web of Science require subscription credentials not available in this environment; the manuscript therefore labels this a limited bibliographic check, not a systematic review.",
+ "criteria": "RELEVANT if title links reanalysis/wind data with low-wind events, wind droughts, Dunkelflaute, spells or energy droughts, OR concerns wind validation/climatology for the Iberian-Moroccan-Canary region; titles screened, deduplicated by paperId/DOI.",
+ "anchors": {
+  "potisomporn2023_ref5": {
+   "doi": "10.1016/j.egyr.2023.11.035",
+   "openalex": "W4388839998 (70 citing works, 27 references, via api.openalex.org/works/doi:..., 2026-10-18)",
+   "s2_lookup": "title search",
+   "s2_paperId": null,
+   "openalex_note": "forward chase (70 citing works) retrieved via api.openalex.org works?filter=cites:W4388839998 on 2026-10-18; screened by title"
+  },
+  "gutierrez2024_ref6": {
+   "doi": "10.1007/s00382-024-07123-3",
+   "openalex": "W4392096999 (14 citing works, 92 references, via api.openalex.org/works/doi:..., 2026-10-18)",
+   "s2_lookup": "DOI",
+   "s2_paperId": "d29def4781d780859e9d3eecb8bd08e37639b09f",
+   "title": "Low-wind climatology (1979\u20132018) over Europe from ERA5 reanalysis",
+   "citationCount": 14,
+   "referenceCount": 92
+  }
+ },
+ "queries": {
+  "S5": {
+   "search": "reanalysis interannual variability wind P90 bankability station",
+   "total": 103,
+   "top20": [
+    {
+     "title": "Interannual Variations of Precipitation Events at Dome Fuji Station, Antarctica",
+     "year": 2026,
+     "venue": "Journal of Geophysical Research - Atmospheres",
+     "paperId": "9e24ef2e19414f36322c4c98c2354a163fe513d4",
+     "doi": "10.1029/2025JD045296",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Interannual variability of mid-high-latitude Eurasian ISO and its impact on surface ozone concentration in North China during boreal summer",
+     "year": 2025,
+     "venue": "Climate Dynamics",
+     "paperId": "dd5465e1eee99a25a1903be4ed3156ed71653071",
+     "doi": "10.1007/s00382-025-07992-2",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Low-wind climatology (1979\u20132018) over Europe from ERA5 reanalysis",
+     "year": 2024,
+     "venue": "Climate Dynamics",
+     "paperId": "d29def4781d780859e9d3eecb8bd08e37639b09f",
+     "doi": "10.1007/s00382-024-07123-3",
+     "screen_relevant": true,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Interannual variability of mean sea level and its sensitivity to wind climate in an inter-tidal basin",
+     "year": 2017,
+     "venue": "",
+     "paperId": "80cefb2361ceb96ad1b644ae159e2e3de682d024",
+     "doi": "10.5194/ESD-8-1223-2017",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "A Comparative Study of Near\u2010Surface Wind Speed Observations and Reanalysis Datasets in China Over the Past 38\u2009Years",
+     "year": 2024,
+     "venue": "International Journal of Climatology",
+     "paperId": "75e212807c502f3e6599776ea55d7bac4340a696",
+     "doi": "10.1002/joc.8738",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Validation of CAMS Reanalysis Data with Surface CH4 Measurements in the High-latitude Arctic",
+     "year": 2026,
+     "venue": "Atmospheric and Oceanic Optics",
+     "paperId": "8c4c63d4e793c564d9b65eadd4a44cc3a16de896",
+     "doi": "10.1134/S1024856026700260",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Determining the ideal length of wind speed series for wind speed distribution and resource assessment",
+     "year": 2026,
+     "venue": "Wind Energy Science",
+     "paperId": "12cb100e70ac630e8147a89f80ff06692506b7ce",
+     "doi": "10.5194/wes-11-217-2026",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Assessing reanalysis data for understanding rainfall climatology and variability over Central Equatorial Africa",
+     "year": 2019,
+     "venue": "Climate Dynamics",
+     "paperId": "c6111cafcb209d7a02f068de761d4f50b382e040",
+     "doi": "10.1007/s00382-018-04604-0",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Reanalysis of seasonal and interannual variability of Black Sea fields for 1993\u20132012",
+     "year": 2016,
+     "venue": "Izvestiya, Atmospheric and Oceanic Physics",
+     "paperId": "161c8abf7b0feb40e4e46e83c402dcf451cc793b",
+     "doi": "10.1134/S0001433816040071",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Comparative Effect of Hydrometeorological Processes on the Formation of Interannual Sea Level Oscillations in the Neva Bay (the Baltic Sea) in 1993\u20132022",
+     "year": 2026,
+     "venue": "Russian Meteorology and Hydrology",
+     "paperId": "3fd3d14381a2c7df953ef3e1f7294c392e7ff3e7",
+     "doi": "10.3103/S1068373926070095",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Drought variability driven by interannual and decadal teleconnection patterns in monsoon regions of Southeast China\u00a0",
+     "year": 2021,
+     "venue": "",
+     "paperId": "f7e006e677a4ca7e984e0acead1e7eab976cb597",
+     "doi": "10.5194/EGUSPHERE-EGU21-9365",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Influence of the Stratospheric Polar Vortex on the Near-Surface Wind Speed in Winter over China",
+     "year": 2025,
+     "venue": "Atmosphere",
+     "paperId": "83b00b4062c5014881c58bd9cafa173035727f7f",
+     "doi": "10.3390/atmos16101205",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Evaluation of Near-Surface Wind Speed Changes during 1979 to 2011 over China Based on Five Reanalysis Datasets",
+     "year": 2019,
+     "venue": "",
+     "paperId": "0da35808f19bcaa4ecefe76199ed316189521146",
+     "doi": "10.3390/atmos10120804",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Variability of Wind-Driven Coastal Upwelling in the North-Eastern Black Sea in 1979\u20132016 According to NCEP/CFSR Data",
+     "year": 2018,
+     "venue": "Pure and Applied Geophysics",
+     "paperId": "0a6ec01e5e40ef96d8dfc0645df66a7b68af60b9",
+     "doi": "10.1007/s00024-018-1955-1",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Interannual variations of dust activity in western Iran and their possible mechanisms",
+     "year": 2020,
+     "venue": "Big Earth Data",
+     "paperId": "e0c5d9c327dc830dcde4f6735e008012698528d6",
+     "doi": "10.1080/20964471.2019.1685825",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "The Surface Energy Balance at Panda 1 Station, Princess Elizabeth Land: A Typical Katabatic Wind Region in East Antarctica",
+     "year": 2020,
+     "venue": "Journal of Geophysical Research - Atmospheres",
+     "paperId": "91586202100561f7adf7c6cb31e7dfa44ec144f9",
+     "doi": "10.1029/2019JD030378",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Seasonal to interannual variability of the Pacific water boundary current in the Beaufort Sea",
+     "year": 2014,
+     "venue": "",
+     "paperId": "a8e430b64ff6642a3791c37b49ccaa097ecd7df1",
+     "doi": "10.1016/J.POCEAN.2014.05.002",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Mechanisms of wind wave and swell partitioning and abrupt wave direction shifts in the deep-ocean: A decade of observations in the Hawaiian waters",
+     "year": 2026,
+     "venue": "Science China. Earth Sciences",
+     "paperId": "38b10cdfc5e4428f4d86103037ac0a0ec997ca18",
+     "doi": "10.1007/s11430-025-1857-8",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Spatiotemporal Characteristics and Trends of Climate Extremes in and Around the Yunnan Reach of the Nujiang River Basin",
+     "year": 2026,
+     "venue": "G\u00e9osciences",
+     "paperId": "49f41270789be21d4a9b8ecdbbedb98ecb589520",
+     "doi": "10.3390/geosciences16090382",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    },
+    {
+     "title": "Interannual Variability of Snow Water Equivalent (SWE) over Western Himalayas",
+     "year": 2016,
+     "venue": "Pure and Applied Geophysics",
+     "paperId": "8c52a71bf55fea4a8556f579f97bea6906aabd51",
+     "doi": "10.1007/s00024-015-1163-1",
+     "screen_relevant": false,
+     "found_by": "query:S5"
+    }
+   ]
+  },
+  "S6": {
+   "search": "low wind climatology ERA5 Europe Iberia Morocco",
+   "total": 34,
+   "top20": [
+    {
+     "title": "Low-wind climatology (1979\u20132018) over Europe from ERA5 reanalysis",
+     "year": 2024,
+     "venue": "Climate Dynamics",
+     "paperId": "d29def4781d780859e9d3eecb8bd08e37639b09f",
+     "doi": "10.1007/s00382-024-07123-3",
+     "screen_relevant": true,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Hazardous weather affecting European airports: Climatological estimates of situations with limited visibility, thunderstorm, low-level wind shear and snowfall from ERA5",
+     "year": 2020,
+     "venue": "",
+     "paperId": "e62bd410597f70ecf987e53074f9b27c7aeaf69a",
+     "doi": "10.1016/j.wace.2020.100243",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Comparison of ERA5 surface wind speed climatologies over Europe with observations from the HadISD dataset",
+     "year": 2021,
+     "venue": "International Journal of Climatology",
+     "paperId": "703481f47288030950d758c9366723f05e9d5e51",
+     "doi": "10.1002/joc.7103",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Severe Convective Storms across Europe and the United States. Part II: ERA5 Environments Associated with Lightning, Large Hail, Severe Wind, and Tornadoes",
+     "year": 2020,
+     "venue": "Journal of Climate",
+     "paperId": "ad7b119ff94ac52a68fe7bdc304684474a897ee1",
+     "doi": "10.1175/JCLI-D-20-0346.1",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Shallow and deep low-wind events in Europe: an ERA5-based event dataset (1979 \u2013 2024)",
+     "year": null,
+     "venue": "",
+     "paperId": "7d717c6d6d3716229c6d1de066f3e0b6b5402366",
+     "doi": null,
+     "screen_relevant": true,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Global tropical cyclone size and intensity reconstruction dataset for 1959\u20132022 based on IBTrACS and ERA5 data",
+     "year": 2024,
+     "venue": "Earth System Science Data",
+     "paperId": "802c7f8924aad08f8a903166b685cd9fe90ffa28",
+     "doi": "10.5194/essd-16-5753-2024",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "The Climatology of Gravity Waves over the Low-Latitude Region Estimated by Multiple Meteor Radars",
+     "year": 2024,
+     "venue": "Remote Sensing",
+     "paperId": "55df80df23ed69bb5e14a23ddbd5e385447d97cc",
+     "doi": "10.3390/rs16162870",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Towards an advanced representation of precipitation over Morocco in a global climate model with resolution enhancement and empirical run\u2010time bias corrections",
+     "year": 2024,
+     "venue": "International Journal of Climatology",
+     "paperId": "befbca04cdbed7510e6a8dd2ea0adf5cf0df254a",
+     "doi": "10.1002/joc.8405",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Warm conveyor belt characteristics and impacts along the life cycle of extratropical cyclones: case studies and climatological analysis based on ERA5",
+     "year": 2024,
+     "venue": "Weather and Climate Dynamics",
+     "paperId": "d30f6acc5de0e2e1b8299533e4cf991b60e4710a",
+     "doi": "10.5194/wcd-5-537-2024",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Atmospheric rivers and associated extreme rainfall over Morocco",
+     "year": 2022,
+     "venue": "International Journal of Climatology",
+     "paperId": "2e67640bcbd4ade900243cb0e5b0b3bc6987c0ec",
+     "doi": "10.1002/joc.7676",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Spatio-temporal characteristics of hazardous weather affecting Chinese airports based on the ERA5/ERA5-land reanalysis dataset",
+     "year": 2022,
+     "venue": "Frontiers in Climate",
+     "paperId": "cd379221ed7ad434bcb24b676ebbeda4379206f1",
+     "doi": "10.3389/fclim.2022.835362",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Thunderstorm environments in Europe",
+     "year": 2023,
+     "venue": "Weather and Climate Dynamics",
+     "paperId": "47de99b67e0cf88bc706bd5ed19b9943495d5db3",
+     "doi": "10.5194/wcd-4-489-2023",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Seasonal Variability of Wind Sea and Swell Waves Climate along the Canary Current: The Local Wind Effect",
+     "year": 2018,
+     "venue": "",
+     "paperId": "56e1bb5511903856c1258197bc046088ea37833e",
+     "doi": "10.3390/JMSE6010028",
+     "screen_relevant": true,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Do AI weather models miss extremes?",
+     "year": 2026,
+     "venue": "",
+     "paperId": "1fbf84f59e439b56f268547543c0445f819a7b38",
+     "doi": null,
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Impact of weather regimes on wind and wave energy potential: application to the Iberian-Moroccan Atlantic region",
+     "year": 2026,
+     "venue": "Meteorology and atmospheric physics (Print)",
+     "paperId": "e67d5872b3f585806e7a48dd293a32074fd30609",
+     "doi": "10.1007/s00703-026-01163-6",
+     "screen_relevant": true,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Climatology of Planetary Boundary Layer Height-Controlling Meteorological Parameters Over the Korean Peninsula",
+     "year": 2020,
+     "venue": "Remote Sensing",
+     "paperId": "ae57d78da06bb68fa268e555e38f59b8cdfc1da5",
+     "doi": "10.3390/rs12162571",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Environments : in Europe",
+     "year": 2023,
+     "venue": "",
+     "paperId": "297edafaff6d02c30ce05f8b62f2ef9e4d79997c",
+     "doi": null,
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Unprecedented monsoon precipitation over southwest Pakistan in 2022: Regional processes in moistening the climatological heat low",
+     "year": 2024,
+     "venue": "Quarterly Journal of the Royal Meteorological Society",
+     "paperId": "ed44e483878b0b7cdb70667d1e1b78846978df2c",
+     "doi": "10.1002/qj.4821",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Towards retrieving cloud top entrainment velocities from MISR cloud motion vectors",
+     "year": 2026,
+     "venue": "Atmospheric Measurement Techniques",
+     "paperId": "0cd8cce375aaae5d3590a3586a10f7f160500072",
+     "doi": "10.5194/amt-19-2025-2026",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    },
+    {
+     "title": "Re-examining cyclogenesis detection criteria over the North Indian Ocean basins",
+     "year": 2026,
+     "venue": "Theoretical and Applied Climatology",
+     "paperId": "71a47bbd035beda6fbb98b019f1c64c7c6ae89e7",
+     "doi": "10.1007/s00704-026-06424-3",
+     "screen_relevant": false,
+     "found_by": "query:S6"
+    }
+   ]
+  }
+ },
+ "chases": {
+  "ref6_gutierrez2024_forward": {
+   "n_returned": 14,
+   "n_expected": 14,
+   "relevant": [
+    {
+     "title": "Shifting winds: How climate change impacts low wind days and wind resources over the Baltic Sea",
+     "year": 2026,
+     "venue": "Journal of the European Meteorological Society",
+     "paperId": "2ec40317fafff2750053fce8f24283081e1fd6cc",
+     "doi": "10.1016/j.jemets.2025.100030",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:forward"
+    },
+    {
+     "title": "The standardized wind speed index: a multiscalar indicator of wind speed variability with a focus on wind droughts",
+     "year": 2026,
+     "venue": "Atmospheric research",
+     "paperId": "71c78a49b901a335dcacb1cf2cdb2c82fee45105",
+     "doi": "10.1016/j.atmosres.2026.108967",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:forward"
+    },
+    {
+     "title": "A multi-decadal analysis of U.S. and Canadian wind and solar energy droughts",
+     "year": 2024,
+     "venue": "Journal of Renewable and Sustainable Energy",
+     "paperId": "dc4cc652221fbb25680c272c7b64ff735daa360e",
+     "doi": "10.1063/5.0219648",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:forward"
+    },
+    {
+     "title": "Characterization of summer easterly winds over the inner Iberian Peninsula",
+     "year": 2024,
+     "venue": "Atmospheric research",
+     "paperId": "eda615780726d0309f6fbe7215cb45dc93448355",
+     "doi": "10.1016/j.atmosres.2024.107358",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:forward"
+    }
+   ]
+  },
+  "ref6_gutierrez2024_backward": {
+   "n_returned": 92,
+   "n_expected": 92,
+   "relevant": [
+    {
+     "title": "Uncertainty in surface wind speed projections over the Iberian Peninsula: CMIP6 GCMs versus a WRF\u2010RCM",
+     "year": 2023,
+     "venue": "Annals of the New York Academy of Sciences",
+     "paperId": "ea54f436f0c5e207b3ff898c9a88c401e29f1cb0",
+     "doi": "10.1111/nyas.15063",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Risk assessment of wind droughts over India",
+     "year": 2022,
+     "venue": "Current Science",
+     "paperId": "fa1623686ac43a1df28018ce0c758b2673a0d90a",
+     "doi": "10.18520/cs/v122/i10/1145-1153",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Impact of Climate Change on Wind and Photovoltaic Energy Resources in the Canary Islands and Adjacent Regions",
+     "year": 2021,
+     "venue": "Sustainability",
+     "paperId": "8593730145b8512a2cdda4c3204ca9245711ff93",
+     "doi": "10.3390/SU13084104",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "On the accuracy of CORDEX RCMs to project future winds over the Iberian Peninsula and surrounding ocean",
+     "year": 2018,
+     "venue": "Applied Energy",
+     "paperId": "2aff6089812c7e9a333cbe6a102965c02a94de88",
+     "doi": "10.1016/J.APENERGY.2018.06.086",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "High Resolution Wind Power and Wind Drought Models",
+     "year": 2018,
+     "venue": "International Journal of Thermal and Environmental Engineering",
+     "paperId": "3af081f6bac89ae693d351c4b87fe0a7cec1f53e",
+     "doi": "10.5383/ijtee.16.01.004",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Investigating the Effects of Pacific Sea Surface Temperatures on the Wind Drought of 2015 Over the United States",
+     "year": 2018,
+     "venue": "",
+     "paperId": "e6414b80a70ab5cc1e44f77f89712ab6f335fa23",
+     "doi": "10.1029/2017JD028019",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Is it always windy somewhere? Occurrence of low-wind-power events over large areas",
+     "year": 2016,
+     "venue": "",
+     "paperId": "678ef4eb8f6669616a44874458a394ffaefe3b7c",
+     "doi": "10.1016/j.renene.2016.10.004",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "A 49 year hindcast of surface winds over the Iberian Peninsula",
+     "year": 2015,
+     "venue": "",
+     "paperId": "c6e7337eff0665433b6c4c1a54be8b59a0dd3294",
+     "doi": "10.1002/joc.4189",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Characterization of surface winds over the Iberian Peninsula",
+     "year": 2015,
+     "venue": "",
+     "paperId": "b91a9b42664a42c6c822265dafbc2172d09f2258",
+     "doi": "10.1002/joc.4034",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Persistence of low wind speed conditions and implications for wind power variability",
+     "year": 2013,
+     "venue": "",
+     "paperId": "fb6a742b5c04eae0b93cca32c0e8bbf15ceb45ea",
+     "doi": "10.1002/WE.1509",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Frequency and duration of low-wind-power events in Germany",
+     "year": 2020,
+     "venue": "Environmental Research Letters",
+     "paperId": null,
+     "doi": null,
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "Low wind speed events: persistence and frequency",
+     "year": 2017,
+     "venue": "",
+     "paperId": "a9dfa4505780294c52cf3b8dd921f24f19068ad5",
+     "doi": "10.1002/WE.2078",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    },
+    {
+     "title": "The nature and frequency of low wind speed conditions",
+     "year": 1998,
+     "venue": "",
+     "paperId": "fd0fecca048018c3abe64ec2e608105701e9e95c",
+     "doi": "10.1016/S0167-6105(97)00278-X",
+     "screen_relevant": true,
+     "found_by": "ref6_gutierrez2024:backward"
+    }
+   ]
+  },
+  "ref5_potisomporn2023_forward_openalex": {
+   "n_returned": 70,
+   "n_expected": 70,
+   "works": [
+    {
+     "year": 2025,
+     "title": "Evaluating the Accuracy of the ERA5 Model in Predicting Wind Speeds Across Coastal and Offshore Regions",
+     "doi": "https://doi.org/10.3390/jmse13010149"
+    },
+    {
+     "year": 2024,
+     "title": "Measuring the Dunkelflaute: how (not) to analyze variable renewable energy shortage",
+     "doi": "https://doi.org/10.1088/2753-3751/ad6dfc"
+    },
+    {
+     "year": 2023,
+     "title": "Extreme value analysis of wind droughts in Great Britain",
+     "doi": "https://doi.org/10.1016/j.renene.2023.119847"
+    },
+    {
+     "year": 2026,
+     "title": "Multi-threshold time series analysis enables characterization of variable renewable energy droughts in Europe",
+     "doi": "https://doi.org/10.1038/s43247-026-03251-2"
+    },
+    {
+     "year": 2025,
+     "title": "Evaluation of ERA5, COSMO-REA6 and CERRA in simulating wind speed along the French coastline for wind energy applications",
+     "doi": "https://doi.org/10.5194/asr-22-69-2025"
+    },
+    {
+     "year": 2026,
+     "title": "Quantifying facility-scale CO2 emissions using spaceborne hyperspectral imageries",
+     "doi": "https://doi.org/10.1016/j.rse.2026.115478"
+    },
+    {
+     "year": 2024,
+     "title": "Quality Assessment of ERA5 Wind Speed and Its Impact on Atmosphere Environment Using Radar Profiles along the Bohai Bay Coastline",
+     "doi": "https://doi.org/10.3390/atmos15101153"
+    },
+    {
+     "year": 2024,
+     "title": "Establishing best practices for modeling multi-day energy storage in deeply decarbonized energy systems",
+     "doi": "https://doi.org/10.1088/2753-3751/ad96bd"
+    },
+    {
+     "year": 2025,
+     "title": "Machine learning and statistical approaches for wind speed estimation at partially sampled and unsampled locations; review and open questions",
+     "doi": "https://doi.org/10.1016/j.enconman.2025.119555"
+    },
+    {
+     "year": 2025,
+     "title": "Evidence of successful methane mitigation in one of Europe's most important oil production region",
+     "doi": "https://doi.org/10.5194/acp-25-5371-2025"
+    },
+    {
+     "year": 2025,
+     "title": "Impacts of Climate Change on Oceans and Ocean-Based Solutions: A Comprehensive Review from the Deep Learning Perspective",
+     "doi": "https://doi.org/10.3390/rs17132306"
+    },
+    {
+     "year": 2024,
+     "title": "Hydrodynamic modelling for simulating nearshore waves and sea levels: classification of extreme events from the English Channel to the Normandy coasts",
+     "doi": "https://doi.org/10.1007/s11069-024-06699-7"
+    },
+    {
+     "year": 2025,
+     "title": "Projected changes in wind speed and wind energy resources over the Persian Gulf based on bias corrected CMIP6 models",
+     "doi": "https://doi.org/10.1016/j.dynatmoce.2025.101539"
+    },
+    {
+     "year": 2025,
+     "title": "Revealing the spatiotemporal precipitation patterns of ECMWF fifth-generation reanalyses since the mid-20th century in West-Africa",
+     "doi": "https://doi.org/10.1016/j.envadv.2025.100636"
+    },
+    {
+     "year": 2025,
+     "title": "Multi-Timescale Validation of Satellite-Derived Global Horizontal Irradiance in C\u00f4te d\u2019Ivoire",
+     "doi": "https://doi.org/10.3390/rs17060998"
+    },
+    {
+     "year": 2025,
+     "title": "Intensifying Renewable Energy Droughts in the Western U.S. Amid Evolving Infrastructure and Climate",
+     "doi": "https://doi.org/10.1029/2024ef005313"
+    },
+    {
+     "year": 2025,
+     "title": "Benefits of kilometer-scale climate modeling for winds in complex terrain: strong versus weak winds",
+     "doi": "https://doi.org/10.5194/wcd-6-863-2025"
+    },
+    {
+     "year": 2025,
+     "title": "Super-Resolution for Renewable Energy Resource Data with Wind from Reanalysis Data and Application to Ukraine",
+     "doi": "https://doi.org/10.3390/en18143769"
+    },
+    {
+     "year": 2025,
+     "title": "Multimodal learning\u2013based reconstruction of high-resolution spatial wind speed fields",
+     "doi": "https://doi.org/10.1017/eds.2024.34"
+    },
+    {
+     "year": 2025,
+     "title": "A Global Assessment of Diurnal Discontinuities in ERA5 Tropospheric Zenith Total Delays Using 10 Years of GNSS Data",
+     "doi": "https://doi.org/10.1029/2024gl113140"
+    },
+    {
+     "year": 2025,
+     "title": "Mangrove Damage and Early-Stage Canopy Recovery Following Hurricane Roslyn in Marismas Nacionales, Mexico",
+     "doi": "https://doi.org/10.3390/f16081207"
+    },
+    {
+     "year": 2024,
+     "title": "Modelling the wind potential energy for metallurgical sector in Albania",
+     "doi": "https://doi.org/10.1038/s41598-024-51841-x"
+    },
+    {
+     "year": 2024,
+     "title": "A multi-decadal analysis of U.S. and Canadian wind and solar energy droughts",
+     "doi": "https://doi.org/10.1063/5.0219648"
+    },
+    {
+     "year": 2024,
+     "title": "High-resolution assessment of wind energy potential in the Hami region of Northwestern China",
+     "doi": "https://doi.org/10.1088/1748-9326/ad8bdd"
+    },
+    {
+     "year": 2025,
+     "title": "Consistency Assessment of the Winds in Reanalysis Datasets and the GIIRS Product Using Radiosondes",
+     "doi": "https://doi.org/10.1007/s00376-025-4138-x"
+    },
+    {
+     "year": 2026,
+     "title": "Geographic variability in reanalysis wind speed biases: A high-resolution bias correction approach for UK wind energy",
+     "doi": "https://doi.org/10.1016/j.enconman.2026.121066"
+    },
+    {
+     "year": 2024,
+     "title": "A machine learning approach to nearshore wave modeling in large lakes using land-based wind observations",
+     "doi": "https://doi.org/10.1016/j.jglr.2024.102445"
+    },
+    {
+     "year": 2025,
+     "title": "Refined Assessment Method of Offshore Wind Resources Based on Interpolation Method",
+     "doi": "https://doi.org/10.3390/en18010213"
+    },
+    {
+     "year": 2025,
+     "title": "Shoreline Response to Hurricane Otis and Flooding Impact from Hurricane John in Acapulco, Mexico",
+     "doi": "https://doi.org/10.3390/coasts5030028"
+    },
+    {
+     "year": 2025,
+     "title": "Examining the historical trend of wind turbine maximum capacity in Egypt",
+     "doi": "https://doi.org/10.1038/s41598-025-24866-z"
+    },
+    {
+     "year": 2026,
+     "title": "Evaluation of the near-surface wind products from reanalyses over the North-Western Indian Ocean",
+     "doi": "https://doi.org/10.1007/s10236-025-01764-6"
+    },
+    {
+     "year": 2026,
+     "title": "A variable-resolution unstructured spatio-temporal graph neural network: an application to very short-range weather forecasting in Guangdong, China",
+     "doi": "https://doi.org/10.1186/s40562-026-00460-7"
+    },
+    {
+     "year": 2026,
+     "title": "Towards better fatigue predictions in large offshore wind turbines: A review of climate, aero-hydrodynamic, and computational approaches",
+     "doi": "https://doi.org/10.1016/j.joes.2026.02.009"
+    },
+    {
+     "year": 2026,
+     "title": "Temporal variability of NO x emissions from power plants: a comparison of satellite- and inventory-based estimates",
+     "doi": "https://doi.org/10.5194/acp-26-4405-2026"
+    },
+    {
+     "year": 2025,
+     "title": "HOTSSea v1: a NEMO-based physical Hindcast of the Salish Sea (1980\u20132018) supporting ecosystem model development",
+     "doi": "https://doi.org/10.5194/gmd-18-211-2025"
+    },
+    {
+     "year": 2025,
+     "title": "Determination of dust storm height using weak beam photons from ICESat-2 and relating with vertical wind profile",
+     "doi": "https://doi.org/10.1016/j.atmosenv.2025.121276"
+    },
+    {
+     "year": 2025,
+     "title": "Objective Air Mass Partitioning of Historical Rainfall for Informing Hydrologic Analysis and Design",
+     "doi": "https://doi.org/10.1061/jhyeff.heeng-6553"
+    },
+    {
+     "year": 2026,
+     "title": "Wind conditions do not consistently affect large-scale movement decisions of large savanna herbivores",
+     "doi": "https://doi.org/10.1007/s00442-025-05860-8"
+    },
+    {
+     "year": 2026,
+     "title": "The Standardized Wind Speed Index: a multiscalar indicator of wind speed variability with a focus on wind droughts",
+     "doi": "https://doi.org/10.1016/j.atmosres.2026.108967"
+    },
+    {
+     "year": 2026,
+     "title": "Evaluation of satellite-derived methane emissions from coal mines using the Gaussian plume model in a topographically complex area",
+     "doi": "https://doi.org/10.1016/j.atmosenv.2026.122004"
+    },
+    {
+     "year": 2026,
+     "title": "Impact of Large\u2010Scale Meteorological Patterns on Offshore Wind Energy Variability and Extreme Wind Events in China",
+     "doi": "https://doi.org/10.1002/joc.70405"
+    },
+    {
+     "year": 2024,
+     "title": "A Global Coastal Sea Surface Wind Field Correction Method for HY-2C Scatterometer",
+     "doi": "https://doi.org/10.1109/jstars.2024.3465607"
+    },
+    {
+     "year": 2024,
+     "title": "Using the Model for Ambient Sound Levels Underwater from Wind (MUSLAW) to Estimate Wind Speeds",
+     "doi": "https://doi.org/10.1109/oceans55160.2024.10754428"
+    },
+    {
+     "year": 2024,
+     "title": "Quantifying the Dunkelflaute: An Analysis of Variable Renewable Energy Droughts in Europe",
+     "doi": "https://doi.org/10.2139/ssrn.5003807"
+    },
+    {
+     "year": 2024,
+     "title": "Projected changes in wind speed and wind energy resources over the Persian Gulf based on bias corrected CMIP6 models",
+     "doi": "https://doi.org/10.21203/rs.3.rs-4445163/v1"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on CEC1",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ac1"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on AC1",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-cec2"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on EC1",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ac2"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on AC1",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ec1"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on EC2",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ac4"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on AC2",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ec2"
+    },
+    {
+     "year": 2024,
+     "title": "Comment on gmd-2024-58",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-rc3"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on RC2",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ac6"
+    },
+    {
+     "year": 2024,
+     "title": "Reply on RC3",
+     "doi": "https://doi.org/10.5194/gmd-2024-58-ac5"
+    },
+    {
+     "year": 2024,
+     "title": "Severe weather event on 3 March 2015 in Msalala District, Tanzania",
+     "doi": "https://doi.org/10.1002/wea.7651"
+    },
+    {
+     "year": 2025,
+     "title": "The Standardized Wind Speed Index: a multiscalar indicator to evaluate wind drought conditions",
+     "doi": "https://doi.org/10.2139/ssrn.5517639"
+    },
+    {
+     "year": 2025,
+     "title": "Neural network\u2013enhanced calibration of ERA5 wind speeds in the northwestern Indian Ocean using 32 years of satellite observations",
+     "doi": "https://doi.org/10.1016/j.rsase.2025.101826"
+    },
+    {
+     "year": 2026,
+     "title": "Estimating sediment properties using a new source level function for wind-driven underwater sound derived from long-term archival data",
+     "doi": "https://doi.org/10.1121/10.0042217"
+    },
+    {
+     "year": 2026,
+     "title": "Illusionary wind energy predictability imperils the strategy of power grid decarbonization: Evidence from offshore Great Britain",
+     "doi": "https://doi.org/10.1016/j.esr.2026.102191"
+    },
+    {
+     "year": 2026,
+     "title": "Evaluating the Accuracy of MERRA-2 Reanalysis Data Against In-Situ Observations Under Varying Weather Conditions",
+     "doi": "https://doi.org/10.62292/njtep.v4i1.2026.108"
+    },
+    {
+     "year": 2024,
+     "title": "C\u03bfupling st\u03bfchastic and numerical appr\u03bfaches f\u03bfr investigating the dynamics \u03bff c\u03bfastal extreme events : Case \u03bff the English Channel and the \u039d\u03bfrmandy c\u03bfasts",
+     "doi": "https://doi.org/10.70675/94dcf2c0zd66ez4618zaca3z434d44b9a240"
+    },
+    {
+     "year": 2026,
+     "title": "Global GNSS IWV diurnal variability over 6,000 stations and its implications for assessing the impact of artificial ERA5 discontinuities",
+     "doi": "https://doi.org/10.1007/s10291-026-02093-x"
+    },
+    {
+     "year": 2026,
+     "title": "Attributing urban heat islands with a surface energy balance: Biophysical drivers across climate gradients",
+     "doi": "https://doi.org/10.1016/j.uclim.2026.102968"
+    },
+    {
+     "year": 2026,
+     "title": "Wind Energy Futures: Which Locations Across the Western U.S. Are Most Resilient to Environmental Change?",
+     "doi": "https://doi.org/10.1029/2026ef008184"
+    },
+    {
+     "year": 2026,
+     "title": "Robust Performance Assessment of a Simulink-Tuned PID Controller for a DC Motor: A Case Study in Noise Rejection",
+     "doi": "https://doi.org/10.56147/aaiet.2.2.134"
+    },
+    {
+     "year": 2026,
+     "title": "An Explainable Machine Learning Framework for Hybrid Wind\u2013Solar Resource Assessment, Forecasting, and Site Suitability Ranking in Southern Pakistan",
+     "doi": "https://doi.org/10.2139/ssrn.7199674"
+    },
+    {
+     "year": 2026,
+     "title": "A Wind-Speed-Dependent Discrepancy Between Sentinel-3 Altimeter and ERA5 Reanalysis over the Chinese Nearshore Seas: A 14-Month Buoy-Referenced Assessment",
+     "doi": "https://doi.org/10.3390/atmos17080754"
+    },
+    {
+     "year": 2026,
+     "title": "Spatiotemporal evolution of climate-related variables affecting wind energy patterns in Ireland over the recent 40-year period (1985\u22122024)",
+     "doi": "https://doi.org/10.1016/j.egyr.2026.109584"
+    },
+    {
+     "year": 2026,
+     "title": "Dimensionless learning-based prediction of 50\u2013300 m offshore wind profiles from wind-free ocean surface observations",
+     "doi": "https://doi.org/10.1016/j.oceaneng.2026.127597"
+    },
+    {
+     "year": 2026,
+     "title": "Renewable energy droughts under high variable renewables penetration: meteorological drivers, system impacts, and planning uses",
+     "doi": "https://doi.org/10.1016/j.rser.2026.117463"
+    }
+   ],
+   "relevant": [
+    {
+     "year": 2024,
+     "title": "Measuring the Dunkelflaute: how (not) to analyze variable renewable energy shortage",
+     "doi": "https://doi.org/10.1088/2753-3751/ad6dfc"
+    },
+    {
+     "year": 2023,
+     "title": "Extreme value analysis of wind droughts in Great Britain",
+     "doi": "https://doi.org/10.1016/j.renene.2023.119847"
+    },
+    {
+     "year": 2026,
+     "title": "Multi-threshold time series analysis enables characterization of variable renewable energy droughts in Europe",
+     "doi": "https://doi.org/10.1038/s43247-026-03251-2"
+    },
+    {
+     "year": 2025,
+     "title": "Intensifying Renewable Energy Droughts in the Western U.S. Amid Evolving Infrastructure and Climate",
+     "doi": "https://doi.org/10.1029/2024ef005313"
+    },
+    {
+     "year": 2024,
+     "title": "A multi-decadal analysis of U.S. and Canadian wind and solar energy droughts",
+     "doi": "https://doi.org/10.1063/5.0219648"
+    },
+    {
+     "year": 2026,
+     "title": "The Standardized Wind Speed Index: a multiscalar indicator of wind speed variability with a focus on wind droughts",
+     "doi": "https://doi.org/10.1016/j.atmosres.2026.108967"
+    },
+    {
+     "year": 2024,
+     "title": "Quantifying the Dunkelflaute: An Analysis of Variable Renewable Energy Droughts in Europe",
+     "doi": "https://doi.org/10.2139/ssrn.5003807"
+    },
+    {
+     "year": 2025,
+     "title": "The Standardized Wind Speed Index: a multiscalar indicator to evaluate wind drought conditions",
+     "doi": "https://doi.org/10.2139/ssrn.5517639"
+    },
+    {
+     "year": 2026,
+     "title": "Renewable energy droughts under high variable renewables penetration: meteorological drivers, system impacts, and planning uses",
+     "doi": "https://doi.org/10.1016/j.rser.2026.117463"
+    }
+   ]
+  },
+  "ref5_potisomporn2023_backward_openalex": {
+   "n_returned": 27,
+   "n_expected": 27,
+   "works": [
+    {
+     "year": 2020,
+     "title": "The ERA5 global reanalysis",
+     "doi": "https://doi.org/10.1002/qj.3803"
+    },
+    {
+     "year": 2000,
+     "title": "Modern estimation of the parameters of the Weibull wind speed distribution for wind energy analysis",
+     "doi": "https://doi.org/10.1016/s0167-6105(99)00122-1"
+    },
+    {
+     "year": 2014,
+     "title": "How does wind farm performance decline with age?",
+     "doi": "https://doi.org/10.1016/j.renene.2013.10.041"
+    },
+    {
+     "year": 2017,
+     "title": "Introduction to the SPARC Reanalysis Intercomparison Project (S-RIP) and overview of the reanalysis systems",
+     "doi": "https://doi.org/10.5194/acp-17-1417-2017"
+    },
+    {
+     "year": 2014,
+     "title": "Intercomparison of wind and wave data from the ECMWF Reanalysis Interim and the NCEP Climate Forecast System Reanalysis",
+     "doi": "https://doi.org/10.1016/j.ocemod.2013.12.006"
+    },
+    {
+     "year": 2005,
+     "title": "Characteristics of the UK wind resource: Long-term patterns and relationship to electricity demand",
+     "doi": "https://doi.org/10.1016/j.enpol.2005.10.003"
+    },
+    {
+     "year": 2013,
+     "title": "WRF wind simulation and wind energy production estimates forced by different reanalyses: Comparison with observed data for Portugal",
+     "doi": "https://doi.org/10.1016/j.apenergy.2013.12.001"
+    },
+    {
+     "year": 2014,
+     "title": "Using reanalysis data to quantify extreme wind power generation statistics: A 33 year case study in Great Britain",
+     "doi": "https://doi.org/10.1016/j.renene.2014.10.024"
+    },
+    {
+     "year": 2021,
+     "title": "Reliability of ERA5 Reanalysis Data for Wind Resource Assessment: A Comparison against Tall Towers",
+     "doi": "https://doi.org/10.3390/en14144169"
+    },
+    {
+     "year": 2016,
+     "title": "Quantifying the increasing sensitivity of power systems to climate variability",
+     "doi": "https://doi.org/10.1088/1748-9326/11/12/124025"
+    },
+    {
+     "year": 2015,
+     "title": "Evaluating the accuracy of CFSR reanalysis hourly wind speed forecasts for the UK, using in situ measurements and geographical information",
+     "doi": "https://doi.org/10.1016/j.renene.2014.12.025"
+    },
+    {
+     "year": 2020,
+     "title": "Evaluation of Global Reanalysis Land Surface Wind Speed Trends to Support Wind Energy Development Using In Situ Observations",
+     "doi": "https://doi.org/10.1175/jamc-d-20-0037.1"
+    },
+    {
+     "year": 2021,
+     "title": "Validation of European-scale simulated wind speed and wind generation time series",
+     "doi": "https://doi.org/10.1016/j.apenergy.2021.117794"
+    },
+    {
+     "year": 2020,
+     "title": "Evaluation of Northern Hemisphere surface wind speed and wind power density in multiple reanalysis datasets",
+     "doi": "https://doi.org/10.1016/j.energy.2020.117382"
+    },
+    {
+     "year": 2021,
+     "title": "Offshore Wind and Wave Energy Complementarity in the Greek Seas Based on ERA5 Data",
+     "doi": "https://doi.org/10.3390/atmos12101360"
+    },
+    {
+     "year": 2021,
+     "title": "Spatial and temporal variability characteristics of offshore wind energy in the United Kingdom",
+     "doi": "https://doi.org/10.1002/we.2685"
+    },
+    {
+     "year": 2006,
+     "title": "Use of finite mixture distribution models in the analysis of wind energy in the Canarian Archipelago",
+     "doi": "https://doi.org/10.1016/j.enconman.2006.04.004"
+    },
+    {
+     "year": 1990,
+     "title": "Annual and seasonal variations in mean wind speed and wind turbine energy production",
+     "doi": "https://doi.org/10.1016/0038-092x(90)90013-3"
+    },
+    {
+     "year": 2011,
+     "title": "Investigation on the use of NCEP/NCAR, MERRA and NCEP/CFSR reanalysis data in wind resource analysis",
+     "doi": null
+    },
+    {
+     "year": 2013,
+     "title": "Wind speed variability across the UK between 1957 and 2011",
+     "doi": "https://doi.org/10.1002/we.1679"
+    },
+    {
+     "year": 2009,
+     "title": "Comparison of wind power estimates from the ECMWF reanalyses with direct turbine measurements",
+     "doi": "https://doi.org/10.1063/1.3153903"
+    },
+    {
+     "year": 2007,
+     "title": "Wind assessment in a coastal environment using synthetic aperture radar satellite imagery and a numerical weather prediction model",
+     "doi": "https://doi.org/10.5589/m07-043"
+    },
+    {
+     "year": 2012,
+     "title": "A comparison of three Met Office wind observing systems",
+     "doi": "https://doi.org/10.1002/asl.396"
+    },
+    {
+     "year": 2009,
+     "title": "Comparision of the NCEP/NCAR Reanalysis II winds with those observed over a complex terrain in lower atmospheric boundary layer",
+     "doi": "https://doi.org/10.1029/2008gl036246"
+    },
+    {
+     "year": 2010,
+     "title": "Data assimilation methods",
+     "doi": "https://doi.org/10.1017/cbo9780511780820.010"
+    },
+    {
+     "year": 2022,
+     "title": "Analysing the uncertainties of reanalysis data used for wind resource assessment: A critical review",
+     "doi": "https://doi.org/10.1016/j.rser.2022.112741"
+    },
+    {
+     "year": 2022,
+     "title": "Long-Term Variability of Wind Speed and Direction in the Mediterranean Basin",
+     "doi": "https://doi.org/10.3390/wind2030028"
+    }
+   ],
+   "relevant": [
+    {
+     "year": 2020,
+     "title": "The ERA5 global reanalysis",
+     "doi": "https://doi.org/10.1002/qj.3803"
+    },
+    {
+     "year": 2017,
+     "title": "Introduction to the SPARC Reanalysis Intercomparison Project (S-RIP) and overview of the reanalysis systems",
+     "doi": "https://doi.org/10.5194/acp-17-1417-2017"
+    },
+    {
+     "year": 2014,
+     "title": "Intercomparison of wind and wave data from the ECMWF Reanalysis Interim and the NCEP Climate Forecast System Reanalysis",
+     "doi": "https://doi.org/10.1016/j.ocemod.2013.12.006"
+    },
+    {
+     "year": 2013,
+     "title": "WRF wind simulation and wind energy production estimates forced by different reanalyses: Comparison with observed data for Portugal",
+     "doi": "https://doi.org/10.1016/j.apenergy.2013.12.001"
+    },
+    {
+     "year": 2014,
+     "title": "Using reanalysis data to quantify extreme wind power generation statistics: A 33 year case study in Great Britain",
+     "doi": "https://doi.org/10.1016/j.renene.2014.10.024"
+    },
+    {
+     "year": 2021,
+     "title": "Reliability of ERA5 Reanalysis Data for Wind Resource Assessment: A Comparison against Tall Towers",
+     "doi": "https://doi.org/10.3390/en14144169"
+    },
+    {
+     "year": 2015,
+     "title": "Evaluating the accuracy of CFSR reanalysis hourly wind speed forecasts for the UK, using in situ measurements and geographical information",
+     "doi": "https://doi.org/10.1016/j.renene.2014.12.025"
+    },
+    {
+     "year": 2020,
+     "title": "Evaluation of Global Reanalysis Land Surface Wind Speed Trends to Support Wind Energy Development Using In Situ Observations",
+     "doi": "https://doi.org/10.1175/jamc-d-20-0037.1"
+    },
+    {
+     "year": 2020,
+     "title": "Evaluation of Northern Hemisphere surface wind speed and wind power density in multiple reanalysis datasets",
+     "doi": "https://doi.org/10.1016/j.energy.2020.117382"
+    },
+    {
+     "year": 2011,
+     "title": "Investigation on the use of NCEP/NCAR, MERRA and NCEP/CFSR reanalysis data in wind resource analysis",
+     "doi": null
+    },
+    {
+     "year": 2009,
+     "title": "Comparison of wind power estimates from the ECMWF reanalyses with direct turbine measurements",
+     "doi": "https://doi.org/10.1063/1.3153903"
+    },
+    {
+     "year": 2009,
+     "title": "Comparision of the NCEP/NCAR Reanalysis II winds with those observed over a complex terrain in lower atmospheric boundary layer",
+     "doi": "https://doi.org/10.1029/2008gl036246"
+    },
+    {
+     "year": 2022,
+     "title": "Analysing the uncertainties of reanalysis data used for wind resource assessment: A critical review",
+     "doi": "https://doi.org/10.1016/j.rser.2022.112741"
+    }
+   ]
+  }
+ },
+ "relevant_hits": [
+  {
+   "title": "Shifting winds: How climate change impacts low wind days and wind resources over the Baltic Sea",
+   "year": 2026,
+   "venue": "Journal of the European Meteorological Society",
+   "paperId": "2ec40317fafff2750053fce8f24283081e1fd6cc",
+   "doi": "10.1016/j.jemets.2025.100030",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:forward"
+  },
+  {
+   "title": "The standardized wind speed index: a multiscalar indicator of wind speed variability with a focus on wind droughts",
+   "year": 2026,
+   "venue": "Atmospheric research",
+   "paperId": "71c78a49b901a335dcacb1cf2cdb2c82fee45105",
+   "doi": "10.1016/j.atmosres.2026.108967",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:forward"
+  },
+  {
+   "title": "A multi-decadal analysis of U.S. and Canadian wind and solar energy droughts",
+   "year": 2024,
+   "venue": "Journal of Renewable and Sustainable Energy",
+   "paperId": "dc4cc652221fbb25680c272c7b64ff735daa360e",
+   "doi": "10.1063/5.0219648",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:forward"
+  },
+  {
+   "title": "Characterization of summer easterly winds over the inner Iberian Peninsula",
+   "year": 2024,
+   "venue": "Atmospheric research",
+   "paperId": "eda615780726d0309f6fbe7215cb45dc93448355",
+   "doi": "10.1016/j.atmosres.2024.107358",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:forward"
+  },
+  {
+   "title": "Uncertainty in surface wind speed projections over the Iberian Peninsula: CMIP6 GCMs versus a WRF\u2010RCM",
+   "year": 2023,
+   "venue": "Annals of the New York Academy of Sciences",
+   "paperId": "ea54f436f0c5e207b3ff898c9a88c401e29f1cb0",
+   "doi": "10.1111/nyas.15063",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Risk assessment of wind droughts over India",
+   "year": 2022,
+   "venue": "Current Science",
+   "paperId": "fa1623686ac43a1df28018ce0c758b2673a0d90a",
+   "doi": "10.18520/cs/v122/i10/1145-1153",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Impact of Climate Change on Wind and Photovoltaic Energy Resources in the Canary Islands and Adjacent Regions",
+   "year": 2021,
+   "venue": "Sustainability",
+   "paperId": "8593730145b8512a2cdda4c3204ca9245711ff93",
+   "doi": "10.3390/SU13084104",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "On the accuracy of CORDEX RCMs to project future winds over the Iberian Peninsula and surrounding ocean",
+   "year": 2018,
+   "venue": "Applied Energy",
+   "paperId": "2aff6089812c7e9a333cbe6a102965c02a94de88",
+   "doi": "10.1016/J.APENERGY.2018.06.086",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "High Resolution Wind Power and Wind Drought Models",
+   "year": 2018,
+   "venue": "International Journal of Thermal and Environmental Engineering",
+   "paperId": "3af081f6bac89ae693d351c4b87fe0a7cec1f53e",
+   "doi": "10.5383/ijtee.16.01.004",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Investigating the Effects of Pacific Sea Surface Temperatures on the Wind Drought of 2015 Over the United States",
+   "year": 2018,
+   "venue": "",
+   "paperId": "e6414b80a70ab5cc1e44f77f89712ab6f335fa23",
+   "doi": "10.1029/2017JD028019",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Is it always windy somewhere? Occurrence of low-wind-power events over large areas",
+   "year": 2016,
+   "venue": "",
+   "paperId": "678ef4eb8f6669616a44874458a394ffaefe3b7c",
+   "doi": "10.1016/j.renene.2016.10.004",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "A 49 year hindcast of surface winds over the Iberian Peninsula",
+   "year": 2015,
+   "venue": "",
+   "paperId": "c6e7337eff0665433b6c4c1a54be8b59a0dd3294",
+   "doi": "10.1002/joc.4189",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Characterization of surface winds over the Iberian Peninsula",
+   "year": 2015,
+   "venue": "",
+   "paperId": "b91a9b42664a42c6c822265dafbc2172d09f2258",
+   "doi": "10.1002/joc.4034",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Persistence of low wind speed conditions and implications for wind power variability",
+   "year": 2013,
+   "venue": "",
+   "paperId": "fb6a742b5c04eae0b93cca32c0e8bbf15ceb45ea",
+   "doi": "10.1002/WE.1509",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Frequency and duration of low-wind-power events in Germany",
+   "year": 2020,
+   "venue": "Environmental Research Letters",
+   "paperId": null,
+   "doi": null,
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Low wind speed events: persistence and frequency",
+   "year": 2017,
+   "venue": "",
+   "paperId": "a9dfa4505780294c52cf3b8dd921f24f19068ad5",
+   "doi": "10.1002/WE.2078",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "The nature and frequency of low wind speed conditions",
+   "year": 1998,
+   "venue": "",
+   "paperId": "fd0fecca048018c3abe64ec2e608105701e9e95c",
+   "doi": "10.1016/S0167-6105(97)00278-X",
+   "screen_relevant": true,
+   "found_by": "ref6_gutierrez2024:backward"
+  },
+  {
+   "title": "Low-wind climatology (1979\u20132018) over Europe from ERA5 reanalysis",
+   "year": 2024,
+   "venue": "Climate Dynamics",
+   "paperId": "d29def4781d780859e9d3eecb8bd08e37639b09f",
+   "doi": "10.1007/s00382-024-07123-3",
+   "screen_relevant": true,
+   "found_by": "query:S5"
+  },
+  {
+   "title": "Shallow and deep low-wind events in Europe: an ERA5-based event dataset (1979 \u2013 2024)",
+   "year": null,
+   "venue": "",
+   "paperId": "7d717c6d6d3716229c6d1de066f3e0b6b5402366",
+   "doi": null,
+   "screen_relevant": true,
+   "found_by": "query:S6"
+  },
+  {
+   "title": "Seasonal Variability of Wind Sea and Swell Waves Climate along the Canary Current: The Local Wind Effect",
+   "year": 2018,
+   "venue": "",
+   "paperId": "56e1bb5511903856c1258197bc046088ea37833e",
+   "doi": "10.3390/JMSE6010028",
+   "screen_relevant": true,
+   "found_by": "query:S6"
+  },
+  {
+   "title": "Impact of weather regimes on wind and wave energy potential: application to the Iberian-Moroccan Atlantic region",
+   "year": 2026,
+   "venue": "Meteorology and atmospheric physics (Print)",
+   "paperId": "e67d5872b3f585806e7a48dd293a32074fd30609",
+   "doi": "10.1007/s00703-026-01163-6",
+   "screen_relevant": true,
+   "found_by": "query:S6"
+  }
+ ]
+}

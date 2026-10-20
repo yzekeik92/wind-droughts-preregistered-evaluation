@@ -1,0 +1,22 @@
+{
+ "date": "2026-10-18",
+ "purpose": "Reviewer point 10: replace the Open-Meteo redistribution with a direct first-party download of Copernicus DEM GLO-90.",
+ "attempts": [
+  {
+   "route": "AWS Open Data buckets copernicus-dem-90m and copernicus-dem-30m (virtual-hosted and path-style, us-east-1/eu-central-1)",
+   "result": "NoSuchBucket on every endpoint at revision time; the mirror appears decommissioned (one transient listing was observed and never reproduced)."
+  },
+  {
+   "route": "Microsoft Planetary Computer, collection cop-dem-glo-90",
+   "result": "STAC catalogue reachable anonymously; item ids use the Copernicus_DSM_COG_30_* prefix and assets live on elevationeuwest.blob.core.windows.net/copernicus-dem/COP90_hh/. Asset requests with the collection SAS token returned HTTP 403 AuthenticationFailed, and the copdem.blob container was unreachable (timeout) from this network. Script fetch_dem_glo90_pc.py encodes the full working route (token endpoint + asset URL pattern) and should succeed from a network where blob SAS authentication is not filtered."
+  },
+  {
+   "route": "source.coop mirror (data.source.coop)",
+   "result": "HTTP 404 / connection failure."
+  }
+ ],
+ "outcome": "The GLO-90 covariates therefore remain those of the Open-Meteo elevation API retrieval of 2026-10-17 (a redistribution of the same ESA product, dataset DOI 10.5270/ESA-c5d3b65), as stated in the manuscript; the direct route is one command away via the deposited script.",
+ "scripts": [
+  "fetch_dem_glo90_pc.py"
+ ]
+}

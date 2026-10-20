@@ -1,0 +1,145 @@
+{
+ "method_note": "Reviewer-prompted equivalence/BF analysis for H1 (v6). Margin 0.5 is pre-specified in frozen prereg v1.2; TOST and Bayes factors are post-hoc additions (deviation #16). Bootstrap = pre-specified spatial-block scheme, 8 blocks, 50000 draws, seed 20261017. BF uses Ly et al. (2016) correlation likelihood on rank-transformed pairs.",
+ "margin": 0.5,
+ "n_boot": 50000,
+ "seed": 20261017,
+ "blocks_sizes": [
+  9,
+  4,
+  10,
+  4,
+  2,
+  1,
+  1,
+  1
+ ],
+ "checks": {
+  "mean_G_rmse": 0.2039363941760234,
+  "mean_G_pers": 0.00505938459083651,
+  "median_log_rmse": 0.15984112921573584,
+  "median_log_pers": 0.025062719734571075
+ },
+ "point": {
+  "rho_diff": 0.15615835777126097,
+  "rho_log": 0.20857771260997066,
+  "pearson_log": 0.16988972371717714,
+  "n_stations_cerra_better_rmse": 20
+ },
+ "tost_bootstrap": {
+  "diff": {
+   "rho_point": 0.15615835777126097,
+   "ci95": [
+    -0.1030330062444246,
+    0.6215676485272091
+   ],
+   "p_pos_ge_margin": 0.04980229139207138,
+   "p_neg_le_minus_margin": 4.0555611882794284e-05,
+   "tost_alpha005_equivalent": true,
+   "prereg_supported_0025": false,
+   "p_pos_ge_0.0": 0.9045726452397851,
+   "boot_mean": 0.17720531500964848,
+   "boot_sd": 0.16878429169234896
+  },
+  "log": {
+   "rho_point": 0.20857771260997066,
+   "ci95": [
+    -0.10171821305841923,
+    0.49729442604624274
+   ],
+   "p_pos_ge_margin": 0.02467808983068032,
+   "p_neg_le_minus_margin": 0.00012166683564838284,
+   "tost_alpha005_equivalent": true,
+   "prereg_supported_0025": true,
+   "p_pos_ge_0.0": 0.9336104633478658,
+   "boot_mean": 0.2149607009331377,
+   "boot_sd": 0.14908825789025737
+  }
+ },
+ "bayes_factors": {
+  "primary_diff_spearman": {
+   "r": 0.15615835777126097,
+   "n": 32,
+   "prior": "stretched-beta a=b=1",
+   "bf01": 3.2092084398542933,
+   "post_mass_total": 0.4779144750246943,
+   "bf_neg_tr": 28.388339730491342,
+   "post_p_neg": 0.9883943622437102,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.47236797274907033,
+   "post_mass_tr": 0.005546502275623977
+  },
+  "logratio_spearman": {
+   "r": 0.20857771260997066,
+   "n": 32,
+   "prior": "stretched-beta a=b=1",
+   "bf01": 2.4263586207213583,
+   "post_mass_total": 0.4791342934377491,
+   "bf_neg_tr": 14.050399647953656,
+   "post_p_neg": 0.9768256728787308,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.4680306785866045,
+   "post_mass_tr": 0.011103614851144583
+  },
+  "logratio_pearson_raw": {
+   "r": 0.16988972371717714,
+   "n": 32,
+   "prior": "stretched-beta a=b=1",
+   "bf01": 3.007275799806541,
+   "post_mass_total": 0.4781993830624136,
+   "bf_neg_tr": 23.518037901289432,
+   "post_p_neg": 0.9860245631140291,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.4715163377655146,
+   "post_mass_tr": 0.006683045296899004
+  },
+  "primary_diff_spearman_prior_ab_0.5": {
+   "r": 0.15615835777126097,
+   "n": 32,
+   "prior": "stretched-beta a=b=0.5",
+   "bf01": 4.910598138375954,
+   "post_mass_total": 0.31233001022662,
+   "bf_neg_tr": 24.321368533689665,
+   "post_p_neg": 0.986479928448083,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.3081072861405451,
+   "post_mass_tr": 0.0042227240860748805
+  },
+  "primary_diff_spearman_prior_ab_2.0": {
+   "r": 0.15615835777126097,
+   "n": 32,
+   "prior": "stretched-beta a=b=2.0",
+   "bf01": 2.2475433207096387,
+   "post_mass_total": 0.6824016038514106,
+   "bf_neg_tr": 38.635092188215445,
+   "post_p_neg": 0.9914460661709567,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.6765643856872325,
+   "post_mass_tr": 0.005837218164178037
+  },
+  "block_means_diff_n8": {
+   "r": 0.38095238095238104,
+   "n": 8,
+   "prior": "stretched-beta a=b=1",
+   "pearson_r": 0.172662233460392,
+   "bf01": 1.5891271399513365,
+   "post_mass_total": 0.4311398368531866,
+   "bf_neg_tr": 1.1121006768171635,
+   "post_p_neg": 0.7693887572919175,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.33171414329551324,
+   "post_mass_tr": 0.09942569355767333
+  },
+  "primary_diff_spearman_neff23": {
+   "r": 0.15615835777126097,
+   "n": 23,
+   "prior": "stretched-beta a=b=1",
+   "bf01": 3.0461677376964644,
+   "post_mass_total": 0.4690739340537724,
+   "bf_neg_tr": 12.712212497564218,
+   "post_p_neg": 0.9744484947081437,
+   "prior_p_neg": 0.75,
+   "post_mass_neg": 0.45708838894552556,
+   "post_mass_tr": 0.011985545108246842
+  }
+ }
+}

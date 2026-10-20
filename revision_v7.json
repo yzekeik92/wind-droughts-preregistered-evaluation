@@ -1,0 +1,326 @@
+{
+ "A_pooled_icc": {
+  "blocks_sizes": [
+   1,
+   1,
+   1,
+   2,
+   4,
+   4,
+   9,
+   10
+  ],
+  "per_test_anova_icc_v4_reproduced": {
+   "H2_cerra": 0.1288,
+   "H2_era5": 0.0,
+   "H3_cerra": 0.0,
+   "H3_era5": 0.1225,
+   "H4_cerra": 0.1278
+  },
+  "per_test_anova_icc_raw_unclipped": {
+   "H2_cerra": 0.1288,
+   "H2_era5": -0.1014,
+   "H3_cerra": -0.188,
+   "H3_era5": 0.1225,
+   "H4_cerra": 0.1278
+  },
+  "pooled_icc_all5_lower_bracket": 0.0126,
+  "pooled_icc_identified3_upper_bracket": 0.1262,
+  "pooled_icc_H2H3_only": 0.0,
+  "identified_outcomes": [
+   "H2_cerra",
+   "H3_era5",
+   "H4_cerra"
+  ],
+  "mbar": 4.0,
+  "design_effect": [
+   1.038,
+   1.378
+  ],
+  "n_effective": [
+   30.8,
+   23.2
+  ],
+  "p_beta_binomial_lower_bracket": {
+   "H2_cerra": 1.51e-05,
+   "H2_era5": 9.5e-07,
+   "H3_cerra": 3.89e-06,
+   "H3_era5": 4.82e-08,
+   "H4_cerra": 0.00599
+  },
+  "p_beta_binomial_upper_bracket": {
+   "H2_cerra": 0.0143,
+   "H2_era5": 0.00739,
+   "H3_cerra": 0.0103,
+   "H3_era5": 0.00364,
+   "H4_cerra": 0.0651
+  },
+  "p_grid": {
+   "0.0": {
+    "H2_cerra": 2.15e-08,
+    "H2_era5": 1.22e-10,
+    "H3_cerra": 1.72e-09,
+    "H3_era5": 4.25e-13,
+    "H4_cerra": 0.000868
+   },
+   "0.05": {
+    "H2_cerra": 0.00164,
+    "H2_era5": 0.00044,
+    "H3_cerra": 0.00086,
+    "H3_era5": 0.000106,
+    "H4_cerra": 0.0306
+   },
+   "0.1": {
+    "H2_cerra": 0.00921,
+    "H2_era5": 0.00416,
+    "H3_cerra": 0.00623,
+    "H3_era5": 0.00177,
+    "H4_cerra": 0.0563
+   },
+   "0.125": {
+    "H2_cerra": 0.0141,
+    "H2_era5": 0.00723,
+    "H3_cerra": 0.0101,
+    "H3_era5": 0.00354,
+    "H4_cerra": 0.0648
+   },
+   "0.15": {
+    "H2_cerra": 0.0189,
+    "H2_era5": 0.0107,
+    "H3_cerra": 0.0143,
+    "H3_era5": 0.00582,
+    "H4_cerra": 0.0711
+   },
+   "0.2": {
+    "H2_cerra": 0.0279,
+    "H2_era5": 0.018,
+    "H3_cerra": 0.0224,
+    "H3_era5": 0.0112,
+    "H4_cerra": 0.0793
+   }
+  },
+  "max_p_H2H3_any_rho_0_to_02": 0.0279,
+  "note": "per-test ICC estimates truncate at 0 for H2_ERA5 and H3_CERRA (raw estimates negative), which manufactured the v4-v6 product contrast; the two brackets of the common ICC (pooling all five outcomes = lower, pooling the three outcomes with identified block structure = upper) plus the grid show both products significant for H2 and H3 at every ICC in [0, 0.20]"
+ },
+ "B_storage_regression": {
+  "regressions": {
+   "era5_on_cerra_wind": {
+    "slope_per_ms": -0.1943,
+    "ci95_blockboot": [
+     -0.256,
+     0.06
+    ],
+    "pearson_r": -0.356,
+    "spearman_rho": -0.392,
+    "n": 32,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     9,
+     10
+    ]
+   },
+   "cerra_on_era5_wind": {
+    "slope_per_ms": -0.0031,
+    "ci95_blockboot": [
+     -0.06,
+     0.123
+    ],
+    "pearson_r": -0.012,
+    "spearman_rho": -0.065,
+    "n": 32,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     9,
+     10
+    ]
+   },
+   "era5_on_mean_wind_blockboot": {
+    "slope_per_ms": -0.2694,
+    "ci95_blockboot": [
+     -0.334,
+     -0.129
+    ],
+    "pearson_r": -0.581,
+    "spearman_rho": -0.677,
+    "n": 32,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     9,
+     10
+    ]
+   },
+   "cerra_on_mean_wind_blockboot": {
+    "slope_per_ms": -0.0132,
+    "ci95_blockboot": [
+     -0.066,
+     0.119
+    ],
+    "pearson_r": -0.039,
+    "spearman_rho": -0.103,
+    "n": 32,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     9,
+     10
+    ]
+   },
+   "era5_on_cerra_wind_classFE": {
+    "slope_per_ms": -0.0196,
+    "ci95_blockboot": [
+     -0.217,
+     0.209
+    ],
+    "pearson_r": -0.356,
+    "spearman_rho": -0.392,
+    "n": 32,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     9,
+     10
+    ]
+   },
+   "era5_on_cerra_wind_excl_archipelago": {
+    "slope_per_ms": -0.1334,
+    "ci95_blockboot": [
+     -0.243,
+     0.089
+    ],
+    "pearson_r": -0.242,
+    "spearman_rho": -0.245,
+    "n": 24,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     10
+    ]
+   },
+   "cerra_on_era5_wind_excl_archipelago": {
+    "slope_per_ms": 0.0856,
+    "ci95_blockboot": [
+     0.033,
+     0.136
+    ],
+    "pearson_r": 0.232,
+    "spearman_rho": 0.256,
+    "n": 24,
+    "n_blocks": 8,
+    "block_sizes": [
+     1,
+     1,
+     1,
+     1,
+     2,
+     4,
+     4,
+     10
+    ]
+   }
+  },
+  "counts_gt1_cross_partition": {
+   "era5": {
+    "low16_gt1": 12,
+    "low16_n": 16,
+    "high16_gt1": 6,
+    "high16_n": 16,
+    "median_wind_cross": 3.3868677397835185
+   },
+   "cerra": {
+    "low16_gt1": 11,
+    "low16_n": 16,
+    "high16_gt1": 11,
+    "high16_n": 16,
+    "median_wind_cross": 3.5689700419356005
+   }
+  },
+  "note": "cross regressors remove the endogeneity of the v5 mean-wind regressor (which contains the product's own wind); class FE and archipelago exclusion address the class-confounding channel; block bootstrap replaces the station bootstrap (8 blocks, known undercoverage)"
+ },
+ "C_event_anchors": {
+  "medians_T1_floored_k5": {
+   "obs": {
+    "events_per_year": 0.55,
+    "mean_dur_days": 5.927,
+    "days_pct": 0.882
+   },
+   "cerra": {
+    "events_per_year": 0.4167,
+    "mean_dur_days": 5.861,
+    "days_pct": 0.699
+   },
+   "era5": {
+    "events_per_year": 0.3833,
+    "mean_dur_days": 5.73,
+    "days_pct": 0.64
+   }
+  },
+  "underestimation_events_vs_obs": {
+   "cerra": -0.242,
+   "era5": -0.303
+  },
+  "obs_anchor_events": 0.55,
+  "obs_anchor_dur": 5.93,
+  "pod_gap_range": [
+   0.117,
+   0.18
+  ],
+  "csi_gap_range": [
+   0.05,
+   0.147
+  ],
+  "events_cerra_variants": [
+   0.4166666666666667,
+   0.5333333333333333
+  ],
+  "events_era5_variants": [
+   0.3333333333333333,
+   0.35574712643678164,
+   0.3833333333333333,
+   0.48333333333333334
+  ],
+  "unification": {
+   "sec43_events_era5": 0.38,
+   "sec43_dur_obs": 5.93,
+   "sec43_days_pct": [
+    0.7,
+    0.64,
+    0.88
+   ],
+   "table4_row_is_correct": true
+  }
+ }
+}
